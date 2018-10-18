@@ -16,6 +16,8 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 //  Declaring another route
 app.get('/about', (req, res) => res.send('About'))
+app.get('/info', (req, res) => res.send('info'))
+app.get('/people', (req, res) => res.send('people'))
 
 //  Start Express Web Server i.e. start listing on the port you defined
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
